@@ -28,7 +28,7 @@ Movie-Recommendation-Engine/
 ├── README.md
 ├── LICENSE
 └── screenshots/
-
+'''
 ⚙️ Installation & Usage
 
 1. Clone the Repository
@@ -61,4 +61,4 @@ GitHub: bemo-codes
 
 📜 License
 
-This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
+This project is licensed under the MIT License. See the LICENSE file for details.
