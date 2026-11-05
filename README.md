@@ -1,28 +1,33 @@
-CineMatch AI – Intelligent Movie Discovery
+# CineMatch AI – Automated Movie Recommendation Engine
 
-CineMatch AI is a personalized movie recommendation engine built with Python, Streamlit, and Scikit-Learn. Powered by the TMDB 5000 dataset, it combines TF-IDF Text Vectorization, Cosine Similarity content matching, and Automated Silhouette-optimized K-Means Clustering wrapped in a highly immersive, cyber-neon glassmorphic UI.
+![Python](https://img.shields.io/badge/Python-3.x-blue?logo=python&logoColor=white)
+![Streamlit](https://img.shields.io/badge/Streamlit-Dashboard-FF4B4B?logo=streamlit&logoColor=white)
+![Machine Learning](https://img.shields.io/badge/Machine%20Learning-Similarity%20%26%20Clustering-orange)
+![Scikit-Learn](https://img.shields.io/badge/Library-scikit--learn-F7931E?logo=scikit-learn&logoColor=white)
+![License](https://img.shields.io/badge/License-MIT-yellow)
 
-✨ Features
+An intelligent, end-to-end Machine Learning web application built with Python, Streamlit, and Scikit-Learn using the TMDB 5000 Kaggle dataset. **CineMatch AI** combines **TF-IDF Text Vectorization**, **Cosine Similarity** content matching, and **Automated Silhouette-optimized K-Means Clustering** wrapped in a highly immersive, cyber-neon glassmorphic UI.
 
-🎯 AI Similarity Matcher: Search for any movie to generate top recommendations accompanied by calculated percentage match scores.
+## Features
 
-🎭 Mood & Genre Explorer: Filter and explore titles by single or multiple genres with dynamic multi-attribute sorting (Rating, Popularity, Release Date).
+- **AI Similarity Matcher:** Search for any target movie to generate top recommendations accompanied by calculated percentage match scores.
+- **Mood & Genre Explorer:** Filter and explore titles by single or multiple genres with dynamic multi-attribute sorting (Rating, Popularity, Release Date).
+- **Smart Surprise Pick:** A 1-click randomized recommendation generator for undecided users, filtered by minimum rating thresholds.
+- **Engine Analytics:** Real-time optimization report rendering the Silhouette Score curve and movie count distribution across auto-selected K-Means clusters.
+- **Immersive UI:** Custom cyber-neon CSS theme featuring frosted glass cards, gradient badges, and interactive hover animations.
 
-🎲 Smart Surprise Pick: A 1-click randomized recommendation generator for undecided users, filtered by rating thresholds.
+## Project Structure
 
-⚡ Engine Analytics: Real-time optimization report rendering the Silhouette Score curve and movie count distribution across auto-selected K-Means clusters.
-
-🌌 Immersive UI: Custom cyber-neon CSS theme featuring frosted glass cards, gradient badges, and interactive hover animations.
-
-🛠️ Tech Stack
-
-Language: Python
-
-Frontend: Streamlit (with custom HTML/CSS injection)
-
-Machine Learning: Scikit-Learn (TfidfVectorizer, cosine_similarity, KMeans, silhouette_score)
-
-Data Manipulation & Viz: Pandas, NumPy, Matplotlib, Seaborn
+```text
+Movie-Recommendation-Engine/
+│
+├── MovieRecommender.py
+├── tmdb_5000_movies.csv
+├── requirements.txt
+├── .gitignore
+├── README.md
+├── LICENSE
+└── screenshots/
 
 ⚙️ Installation & Usage
 
